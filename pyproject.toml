@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "alozzagalb-annotate_jd379"
+name = "alozzagalb-batch_scheduling_throughput_length_profile"
 version = "0.1.0"
 description = "按段落统计标注平台与数据质量工程师·批处理调度与吞吐折中相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://alozzagalb.github.io"
-Repository = "https://github.com/alozzagalb/annotate_jd379"
-Issues = "https://github.com/alozzagalb/annotate_jd379/issues"
+Repository = "https://github.com/alozzagalb/batch_scheduling_throughput_length_profile"
+Issues = "https://github.com/alozzagalb/batch_scheduling_throughput_length_profile/issues"
 
 [project.scripts]
-annotate_jd379 = "annotate_jd379:main"
+batch_scheduling_throughput_length_profile = "batch_scheduling_throughput_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["annotate_jd379"]
+py-modules = ["batch_scheduling_throughput_length_profile"]
